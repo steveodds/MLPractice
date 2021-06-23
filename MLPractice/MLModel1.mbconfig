@@ -1,0 +1,16 @@
+﻿{
+  "TrainingConfigurationVersion": 0,
+  "TrainingTime": 0,
+  "Scenario": {
+    "ScenarioType": "Classification"
+  },
+  "DataSource": {
+    "DataSourceType": "TabularFile",
+    "FilePath": "",
+    "DecimalMarker": "\u0000",
+    "HasHeader": false
+  },
+  "Environment": {
+    "EnvironmentType": "LocalCPU"
+  }
+}
