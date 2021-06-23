@@ -25,6 +25,11 @@ namespace MLModel1_Console
 
 
             Console.WriteLine($"\n\nPredicted Col1: {predictionResult.Prediction}\n\n");
+
+            Console.WriteLine($"Col0: Definitely worth the upset stomach");
+            predictionResult = MLModel1.Predict(new MLModel1.ModelInput() { Col0 = "Definitely worth the upset stomach" });
+
+            Console.WriteLine($"\n\nPredicted Col1: {predictionResult.Prediction}\n\n");
             Console.WriteLine("=============== End of process, hit any key to finish ===============");
             Console.ReadKey();
         }
